@@ -10,6 +10,119 @@
 		F8345CEF24FA92CA00677C87 /* StepTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8345CE524FA92CA00677C87 /* StepTalk.framework */; };
 		F8345CF424FA92CA00677C87 /* StepTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345CF324FA92CA00677C87 /* StepTalkTests.m */; };
 		F8345CF624FA92CA00677C87 /* StepTalk.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345CE824FA92CA00677C87 /* StepTalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D3D24FA92FA00677C87 /* STMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345CFF24FA92F100677C87 /* STMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D3E24FA92FA00677C87 /* STScriptsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0024FA92F100677C87 /* STScriptsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D3F24FA92FA00677C87 /* STEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0124FA92F100677C87 /* STEnvironment.m */; };
+		F8345D4024FA92FA00677C87 /* NSInvocation+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0224FA92F100677C87 /* NSInvocation+additions.m */; };
+		F8345D4124FA92FA00677C87 /* STObjectReference.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0324FA92F200677C87 /* STObjectReference.m */; };
+		F8345D4224FA92FA00677C87 /* STBundleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0424FA92F200677C87 /* STBundleInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D4324FA92FA00677C87 /* STFileScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0524FA92F200677C87 /* STFileScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D4524FA92FA00677C87 /* STActor.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0724FA92F200677C87 /* STActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D4624FA92FA00677C87 /* STLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0824FA92F200677C87 /* STLanguageManager.m */; };
+		F8345D4824FA92FA00677C87 /* STMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0A24FA92F200677C87 /* STMethod.m */; };
+		F8345D4924FA92FA00677C87 /* STSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0B24FA92F200677C87 /* STSelector.m */; };
+		F8345D4B24FA92FA00677C87 /* NSInvocation+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0D24FA92F200677C87 /* NSInvocation+additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D4C24FA92FA00677C87 /* STClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D0E24FA92F300677C87 /* STClassInfo.m */; };
+		F8345D4D24FA92FA00677C87 /* StepTalkLegacy.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D0F24FA92F300677C87 /* StepTalkLegacy.h */; };
+		F8345D4E24FA92FA00677C87 /* STObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1024FA92F300677C87 /* STObjCRuntime.m */; };
+		F8345D4F24FA92FA00677C87 /* STEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1124FA92F300677C87 /* STEngine.m */; };
+		F8345D5024FA92FA00677C87 /* STScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1224FA92F300677C87 /* STScripting.m */; };
+		F8345D5224FA92FA00677C87 /* STObjectReference.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1424FA92F300677C87 /* STObjectReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5324FA92FA00677C87 /* STLanguageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1524FA92F300677C87 /* STLanguageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5424FA92FA00677C87 /* STEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1624FA92F300677C87 /* STEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5524FA92FA00677C87 /* STClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1724FA92F300677C87 /* STClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5624FA92FA00677C87 /* STStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1824FA92F400677C87 /* STStructure.m */; };
+		F8345D5724FA92FA00677C87 /* STStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1924FA92F400677C87 /* STStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5824FA92FA00677C87 /* STBehaviourInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1A24FA92F400677C87 /* STBehaviourInfo.m */; };
+		F8345D5924FA92FA00677C87 /* STBehaviourInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1B24FA92F400677C87 /* STBehaviourInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5A24FA92FA00677C87 /* STFileScript.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1C24FA92F400677C87 /* STFileScript.m */; };
+		F8345D5B24FA92FA00677C87 /* STScriptObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1D24FA92F400677C87 /* STScriptObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5C24FA92FA00677C87 /* STConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D1E24FA92F400677C87 /* STConversation.m */; };
+		F8345D5D24FA92FA00677C87 /* STScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D1F24FA92F500677C87 /* STScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D5E24FA92FA00677C87 /* NSNumber+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2024FA92F500677C87 /* NSNumber+additions.m */; };
+		F8345D5F24FA92FA00677C87 /* STBundleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2124FA92F500677C87 /* STBundleInfo.m */; };
+		F8345D6024FA92FA00677C87 /* STConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2224FA92F500677C87 /* STConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6124FA92FA00677C87 /* STUndefinedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2324FA92F500677C87 /* STUndefinedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6224FA92FA00677C87 /* NSObject+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2424FA92F500677C87 /* NSObject+additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6524FA92FA00677C87 /* STExterns.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2724FA92F600677C87 /* STExterns.m */; };
+		F8345D6624FA92FA00677C87 /* STUndefinedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2824FA92F600677C87 /* STUndefinedObject.m */; };
+		F8345D6724FA92FA00677C87 /* STScriptsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2924FA92F600677C87 /* STScriptsManager.m */; };
+		F8345D6824FA92FA00677C87 /* STActor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2A24FA92F600677C87 /* STActor.m */; };
+		F8345D6924FA92FA00677C87 /* STEnvironmentDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D2B24FA92F600677C87 /* STEnvironmentDescription.m */; };
+		F8345D6A24FA92FA00677C87 /* STScripting.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2C24FA92F700677C87 /* STScripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6B24FA92FA00677C87 /* NSNumber+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2D24FA92F700677C87 /* NSNumber+additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6C24FA92FA00677C87 /* STEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2E24FA92F700677C87 /* STEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6D24FA92FA00677C87 /* STSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D2F24FA92F700677C87 /* STSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D6F24FA92FA00677C87 /* STObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D3124FA92F700677C87 /* STObjCRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D7024FA92FA00677C87 /* STEnvironmentDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D3224FA92F700677C87 /* STEnvironmentDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D7124FA92FA00677C87 /* STFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D3324FA92F800677C87 /* STFunctions.m */; };
+		F8345D7224FA92FA00677C87 /* STScript.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D3424FA92F900677C87 /* STScript.m */; };
+		F8345D7324FA92FA00677C87 /* STScriptObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D3524FA92F900677C87 /* STScriptObject.m */; };
+		F8345D7424FA92FA00677C87 /* STContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D3624FA92F900677C87 /* STContext.m */; };
+		F8345D7524FA92FA00677C87 /* STFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D3724FA92F900677C87 /* STFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D7724FA92FA00677C87 /* STExterns.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D3924FA92F900677C87 /* STExterns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D7924FA92FA00677C87 /* STContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D3B24FA92FA00677C87 /* STContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345D7A24FA92FA00677C87 /* NSObject+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D3C24FA92FA00677C87 /* NSObject+additions.m */; };
+		F8345DEC24FACF8300677C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DEB24FACF8300677C87 /* main.m */; };
+		F8345E0324FAD31200677C87 /* STExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345E0224FAD31200677C87 /* STExecutor.m */; };
+		F8345E0424FAD84600677C87 /* StepTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8345CE524FA92CA00677C87 /* StepTalk.framework */; };
+		F8345E0524FAD84600677C87 /* StepTalk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8345CE524FA92CA00677C87 /* StepTalk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8345E1724FAD95B00677C87 /* Smalltalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8345E0E24FAD95B00677C87 /* Smalltalk.framework */; };
+		F8345E1C24FAD95B00677C87 /* SmalltalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345E1B24FAD95B00677C87 /* SmalltalkTests.m */; };
+		F8345E1E24FAD95B00677C87 /* Smalltalk.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345E1024FAD95B00677C87 /* Smalltalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E2524FAD96E00677C87 /* SmalltalkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DAC24FA931D00677C87 /* SmalltalkEngine.m */; };
+		F8345E2624FAD96E00677C87 /* STSmalltalkScriptObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9124FA931900677C87 /* STSmalltalkScriptObject.m */; };
+		F8345E2724FAD96E00677C87 /* Externs.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DAF24FA931D00677C87 /* Externs.m */; };
+		F8345E2824FAD98200677C87 /* StepTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8345CE524FA92CA00677C87 /* StepTalk.framework */; };
+		F8345E2D24FAD9FE00677C87 /* STBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DB424FA931E00677C87 /* STBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E2E24FAD9FE00677C87 /* STBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9424FA931900677C87 /* STBlock.m */; };
+		F8345E2F24FAD9FE00677C87 /* STBytecodeInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA524FA931C00677C87 /* STBytecodeInterpreter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3024FAD9FE00677C87 /* STBytecodeInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DB224FA931E00677C87 /* STBytecodeInterpreter.m */; };
+		F8345E3124FAD9FE00677C87 /* STBytecodes.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D9F24FA931B00677C87 /* STBytecodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3224FAD9FE00677C87 /* STBytecodes.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DB824FA931F00677C87 /* STBytecodes.m */; };
+		F8345E3324FAD9FE00677C87 /* STExecutionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA824FA931C00677C87 /* STExecutionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3424FAD9FE00677C87 /* STExecutionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DAE24FA931D00677C87 /* STExecutionContext.m */; };
+		F8345E3524FAD9FE00677C87 /* STMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8C24FA931800677C87 /* STMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3624FAD9FE00677C87 /* STMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9A24FA931A00677C87 /* STMessage.m */; };
+		F8345E3724FAD9FE00677C87 /* STMethodContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8824FA931800677C87 /* STMethodContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3824FAD9FE00677C87 /* STMethodContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DA224FA931B00677C87 /* STMethodContext.m */; };
+		F8345E3924FAD9FE00677C87 /* STSelector+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D9D24FA931B00677C87 /* STSelector+additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3A24FAD9FE00677C87 /* STSelector+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DA324FA931B00677C87 /* STSelector+additions.m */; };
+		F8345E3B24FAD9FE00677C87 /* STBlockContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DAD24FA931D00677C87 /* STBlockContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3C24FAD9FE00677C87 /* STBlockContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D8924FA931800677C87 /* STBlockContext.m */; };
+		F8345E3D24FAD9FE00677C87 /* STStack.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DB524FA931E00677C87 /* STStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E3E24FAD9FE00677C87 /* STStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9224FA931900677C87 /* STStack.m */; };
+		F8345E3F24FAD9FE00677C87 /* STUndefinedObject+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8D24FA931800677C87 /* STUndefinedObject+additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4024FAD9FE00677C87 /* STUndefinedObject+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9B24FA931A00677C87 /* STUndefinedObject+additions.m */; };
+		F8345E4124FAD9FE00677C87 /* STLiterals.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8724FA931800677C87 /* STLiterals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4224FAD9FE00677C87 /* STLiterals.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9E24FA931B00677C87 /* STLiterals.m */; };
+		F8345E4324FAD9FE00677C87 /* STTokenTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8524FA931700677C87 /* STTokenTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4424FAD9FE00677C87 /* STSourceReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D9024FA931900677C87 /* STSourceReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4524FAD9FE00677C87 /* STGrammarTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DE424FAC74D00677C87 /* STGrammarTypes.h */; };
+		F8345E4624FAD9FE00677C87 /* STSourceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DAA24FA931C00677C87 /* STSourceReader.m */; };
+		F8345E4724FAD9FE00677C87 /* STGrammar.ym in Sources */ = {isa = PBXBuildFile; fileRef = F8345D8A24FA931800677C87 /* STGrammar.ym */; };
+		F8345E4824FAD9FE00677C87 /* STCompiledCode.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DB324FA931E00677C87 /* STCompiledCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4924FAD9FE00677C87 /* STCompiledCode.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DB124FA931E00677C87 /* STCompiledCode.m */; };
+		F8345E4A24FAD9FE00677C87 /* STCompiledMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8B24FA931800677C87 /* STCompiledMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4B24FAD9FE00677C87 /* STCompiledMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DA724FA931C00677C87 /* STCompiledMethod.m */; };
+		F8345E4C24FAD9FE00677C87 /* STCompiledScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DB624FA931E00677C87 /* STCompiledScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4D24FAD9FE00677C87 /* STCompiledScript.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9924FA931A00677C87 /* STCompiledScript.m */; };
+		F8345E4E24FAD9FE00677C87 /* STCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA024FA931B00677C87 /* STCompiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E4F24FAD9FE00677C87 /* STCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9324FA931900677C87 /* STCompiler.m */; };
+		F8345E5024FAD9FE00677C87 /* STCompilerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D9C24FA931A00677C87 /* STCompilerUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E5124FAD9FE00677C87 /* STCompilerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D9524FA931A00677C87 /* STCompilerUtils.m */; };
+		F8345E5224FAD9FE00677C87 /* NSArray+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA924FA931C00677C87 /* NSArray+additions.h */; };
+		F8345E5324FAD9FE00677C87 /* NSArray+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DB724FA931E00677C87 /* NSArray+additions.m */; };
+		F8345E5424FAD9FE00677C87 /* NSNumber+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DB024FA931D00677C87 /* NSNumber+additions.h */; };
+		F8345E5524FAD9FE00677C87 /* NSNumber+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345D8F24FA931900677C87 /* NSNumber+additions.m */; };
+		F8345E5624FAD9FE00677C87 /* NSObject+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8E24FA931800677C87 /* NSObject+additions.h */; };
+		F8345E5724FAD9FE00677C87 /* NSObject+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DAB24FA931C00677C87 /* NSObject+additions.m */; };
+		F8345E5824FAD9FE00677C87 /* NSString+additions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D8624FA931800677C87 /* NSString+additions.h */; };
+		F8345E5924FAD9FE00677C87 /* NSString+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345DA624FA931C00677C87 /* NSString+additions.m */; };
+		F8345E5A24FAD9FE00677C87 /* Externs.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA124FA931B00677C87 /* Externs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E5B24FAD9FE00677C87 /* SmalltalkEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345D9824FA931A00677C87 /* SmalltalkEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E5C24FAD9FE00677C87 /* STSmalltalkScriptObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F8345DA424FA931B00677C87 /* STSmalltalkScriptObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8345E5E24FADB1400677C87 /* STSourceReaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8345E5D24FADB1400677C87 /* STSourceReaderTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +133,51 @@
 			remoteGlobalIDString = F8345CE424FA92CA00677C87;
 			remoteInfo = StepTalk;
 		};
+		F8345E0624FAD84600677C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8345CDC24FA92CA00677C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8345CE424FA92CA00677C87;
+			remoteInfo = StepTalk;
+		};
+		F8345E1824FAD95B00677C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8345CDC24FA92CA00677C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8345E0D24FAD95B00677C87;
+			remoteInfo = Smalltalk;
+		};
+		F8345E2A24FAD98200677C87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8345CDC24FA92CA00677C87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8345CE424FA92CA00677C87;
+			remoteInfo = StepTalk;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8345DE724FACF8300677C87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F8345E0824FAD84600677C87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8345E0524FAD84600677C87 /* StepTalk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F8345CE524FA92CA00677C87 /* StepTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StepTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +186,122 @@
 		F8345CEE24FA92CA00677C87 /* StepTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8345CF324FA92CA00677C87 /* StepTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepTalkTests.m; sourceTree = "<group>"; };
 		F8345CF524FA92CA00677C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8345CFF24FA92F100677C87 /* STMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMethod.h; sourceTree = "<group>"; };
+		F8345D0024FA92F100677C87 /* STScriptsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScriptsManager.h; sourceTree = "<group>"; };
+		F8345D0124FA92F100677C87 /* STEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEnvironment.m; sourceTree = "<group>"; };
+		F8345D0224FA92F100677C87 /* NSInvocation+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+additions.m"; sourceTree = "<group>"; };
+		F8345D0324FA92F200677C87 /* STObjectReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STObjectReference.m; sourceTree = "<group>"; };
+		F8345D0424FA92F200677C87 /* STBundleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBundleInfo.h; sourceTree = "<group>"; };
+		F8345D0524FA92F200677C87 /* STFileScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFileScript.h; sourceTree = "<group>"; };
+		F8345D0724FA92F200677C87 /* STActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STActor.h; sourceTree = "<group>"; };
+		F8345D0824FA92F200677C87 /* STLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLanguageManager.m; sourceTree = "<group>"; };
+		F8345D0A24FA92F200677C87 /* STMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMethod.m; sourceTree = "<group>"; };
+		F8345D0B24FA92F200677C87 /* STSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSelector.m; sourceTree = "<group>"; };
+		F8345D0D24FA92F200677C87 /* NSInvocation+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+additions.h"; sourceTree = "<group>"; };
+		F8345D0E24FA92F300677C87 /* STClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STClassInfo.m; sourceTree = "<group>"; };
+		F8345D0F24FA92F300677C87 /* StepTalkLegacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTalkLegacy.h; sourceTree = "<group>"; };
+		F8345D1024FA92F300677C87 /* STObjCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STObjCRuntime.m; sourceTree = "<group>"; };
+		F8345D1124FA92F300677C87 /* STEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEngine.m; sourceTree = "<group>"; };
+		F8345D1224FA92F300677C87 /* STScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScripting.m; sourceTree = "<group>"; };
+		F8345D1424FA92F300677C87 /* STObjectReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STObjectReference.h; sourceTree = "<group>"; };
+		F8345D1524FA92F300677C87 /* STLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLanguageManager.h; sourceTree = "<group>"; };
+		F8345D1624FA92F300677C87 /* STEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEnvironment.h; sourceTree = "<group>"; };
+		F8345D1724FA92F300677C87 /* STClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STClassInfo.h; sourceTree = "<group>"; };
+		F8345D1824FA92F400677C87 /* STStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStructure.m; sourceTree = "<group>"; };
+		F8345D1924FA92F400677C87 /* STStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStructure.h; sourceTree = "<group>"; };
+		F8345D1A24FA92F400677C87 /* STBehaviourInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBehaviourInfo.m; sourceTree = "<group>"; };
+		F8345D1B24FA92F400677C87 /* STBehaviourInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBehaviourInfo.h; sourceTree = "<group>"; };
+		F8345D1C24FA92F400677C87 /* STFileScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFileScript.m; sourceTree = "<group>"; };
+		F8345D1D24FA92F400677C87 /* STScriptObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScriptObject.h; sourceTree = "<group>"; };
+		F8345D1E24FA92F400677C87 /* STConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConversation.m; sourceTree = "<group>"; };
+		F8345D1F24FA92F500677C87 /* STScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScript.h; sourceTree = "<group>"; };
+		F8345D2024FA92F500677C87 /* NSNumber+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+additions.m"; sourceTree = "<group>"; };
+		F8345D2124FA92F500677C87 /* STBundleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBundleInfo.m; sourceTree = "<group>"; };
+		F8345D2224FA92F500677C87 /* STConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConversation.h; sourceTree = "<group>"; };
+		F8345D2324FA92F500677C87 /* STUndefinedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUndefinedObject.h; sourceTree = "<group>"; };
+		F8345D2424FA92F500677C87 /* NSObject+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+additions.h"; sourceTree = "<group>"; };
+		F8345D2724FA92F600677C87 /* STExterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STExterns.m; sourceTree = "<group>"; };
+		F8345D2824FA92F600677C87 /* STUndefinedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUndefinedObject.m; sourceTree = "<group>"; };
+		F8345D2924FA92F600677C87 /* STScriptsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScriptsManager.m; sourceTree = "<group>"; };
+		F8345D2A24FA92F600677C87 /* STActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STActor.m; sourceTree = "<group>"; };
+		F8345D2B24FA92F600677C87 /* STEnvironmentDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEnvironmentDescription.m; sourceTree = "<group>"; };
+		F8345D2C24FA92F700677C87 /* STScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScripting.h; sourceTree = "<group>"; };
+		F8345D2D24FA92F700677C87 /* NSNumber+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+additions.h"; sourceTree = "<group>"; };
+		F8345D2E24FA92F700677C87 /* STEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEngine.h; sourceTree = "<group>"; };
+		F8345D2F24FA92F700677C87 /* STSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSelector.h; sourceTree = "<group>"; };
+		F8345D3124FA92F700677C87 /* STObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STObjCRuntime.h; sourceTree = "<group>"; };
+		F8345D3224FA92F700677C87 /* STEnvironmentDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEnvironmentDescription.h; sourceTree = "<group>"; };
+		F8345D3324FA92F800677C87 /* STFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFunctions.m; sourceTree = "<group>"; };
+		F8345D3424FA92F900677C87 /* STScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScript.m; sourceTree = "<group>"; };
+		F8345D3524FA92F900677C87 /* STScriptObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScriptObject.m; sourceTree = "<group>"; };
+		F8345D3624FA92F900677C87 /* STContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STContext.m; sourceTree = "<group>"; };
+		F8345D3724FA92F900677C87 /* STFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFunctions.h; sourceTree = "<group>"; };
+		F8345D3924FA92F900677C87 /* STExterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STExterns.h; sourceTree = "<group>"; };
+		F8345D3B24FA92FA00677C87 /* STContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STContext.h; sourceTree = "<group>"; };
+		F8345D3C24FA92FA00677C87 /* NSObject+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+additions.m"; sourceTree = "<group>"; };
+		F8345D8124FA92FF00677C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8345D8524FA931700677C87 /* STTokenTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTokenTypes.h; sourceTree = "<group>"; };
+		F8345D8624FA931800677C87 /* NSString+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+additions.h"; sourceTree = "<group>"; };
+		F8345D8724FA931800677C87 /* STLiterals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLiterals.h; sourceTree = "<group>"; };
+		F8345D8824FA931800677C87 /* STMethodContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMethodContext.h; sourceTree = "<group>"; };
+		F8345D8924FA931800677C87 /* STBlockContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBlockContext.m; sourceTree = "<group>"; };
+		F8345D8A24FA931800677C87 /* STGrammar.ym */ = {isa = PBXFileReference; explicitFileType = sourcecode.yacc; fileEncoding = 4; path = STGrammar.ym; sourceTree = "<group>"; };
+		F8345D8B24FA931800677C87 /* STCompiledMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCompiledMethod.h; sourceTree = "<group>"; };
+		F8345D8C24FA931800677C87 /* STMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMessage.h; sourceTree = "<group>"; };
+		F8345D8D24FA931800677C87 /* STUndefinedObject+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STUndefinedObject+additions.h"; sourceTree = "<group>"; };
+		F8345D8E24FA931800677C87 /* NSObject+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+additions.h"; sourceTree = "<group>"; };
+		F8345D8F24FA931900677C87 /* NSNumber+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+additions.m"; sourceTree = "<group>"; };
+		F8345D9024FA931900677C87 /* STSourceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSourceReader.h; sourceTree = "<group>"; };
+		F8345D9124FA931900677C87 /* STSmalltalkScriptObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSmalltalkScriptObject.m; sourceTree = "<group>"; };
+		F8345D9224FA931900677C87 /* STStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStack.m; sourceTree = "<group>"; };
+		F8345D9324FA931900677C87 /* STCompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCompiler.m; sourceTree = "<group>"; };
+		F8345D9424FA931900677C87 /* STBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBlock.m; sourceTree = "<group>"; };
+		F8345D9524FA931A00677C87 /* STCompilerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCompilerUtils.m; sourceTree = "<group>"; };
+		F8345D9824FA931A00677C87 /* SmalltalkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmalltalkEngine.h; sourceTree = "<group>"; };
+		F8345D9924FA931A00677C87 /* STCompiledScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCompiledScript.m; sourceTree = "<group>"; };
+		F8345D9A24FA931A00677C87 /* STMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMessage.m; sourceTree = "<group>"; };
+		F8345D9B24FA931A00677C87 /* STUndefinedObject+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STUndefinedObject+additions.m"; sourceTree = "<group>"; };
+		F8345D9C24FA931A00677C87 /* STCompilerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCompilerUtils.h; sourceTree = "<group>"; };
+		F8345D9D24FA931B00677C87 /* STSelector+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STSelector+additions.h"; sourceTree = "<group>"; };
+		F8345D9E24FA931B00677C87 /* STLiterals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLiterals.m; sourceTree = "<group>"; };
+		F8345D9F24FA931B00677C87 /* STBytecodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBytecodes.h; sourceTree = "<group>"; };
+		F8345DA024FA931B00677C87 /* STCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCompiler.h; sourceTree = "<group>"; };
+		F8345DA124FA931B00677C87 /* Externs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Externs.h; sourceTree = "<group>"; };
+		F8345DA224FA931B00677C87 /* STMethodContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMethodContext.m; sourceTree = "<group>"; };
+		F8345DA324FA931B00677C87 /* STSelector+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STSelector+additions.m"; sourceTree = "<group>"; };
+		F8345DA424FA931B00677C87 /* STSmalltalkScriptObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSmalltalkScriptObject.h; sourceTree = "<group>"; };
+		F8345DA524FA931C00677C87 /* STBytecodeInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBytecodeInterpreter.h; sourceTree = "<group>"; };
+		F8345DA624FA931C00677C87 /* NSString+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+additions.m"; sourceTree = "<group>"; };
+		F8345DA724FA931C00677C87 /* STCompiledMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCompiledMethod.m; sourceTree = "<group>"; };
+		F8345DA824FA931C00677C87 /* STExecutionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STExecutionContext.h; sourceTree = "<group>"; };
+		F8345DA924FA931C00677C87 /* NSArray+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+additions.h"; sourceTree = "<group>"; };
+		F8345DAA24FA931C00677C87 /* STSourceReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSourceReader.m; sourceTree = "<group>"; };
+		F8345DAB24FA931C00677C87 /* NSObject+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+additions.m"; sourceTree = "<group>"; };
+		F8345DAC24FA931D00677C87 /* SmalltalkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmalltalkEngine.m; sourceTree = "<group>"; };
+		F8345DAD24FA931D00677C87 /* STBlockContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBlockContext.h; sourceTree = "<group>"; };
+		F8345DAE24FA931D00677C87 /* STExecutionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STExecutionContext.m; sourceTree = "<group>"; };
+		F8345DAF24FA931D00677C87 /* Externs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Externs.m; sourceTree = "<group>"; };
+		F8345DB024FA931D00677C87 /* NSNumber+additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+additions.h"; sourceTree = "<group>"; };
+		F8345DB124FA931E00677C87 /* STCompiledCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCompiledCode.m; sourceTree = "<group>"; };
+		F8345DB224FA931E00677C87 /* STBytecodeInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBytecodeInterpreter.m; sourceTree = "<group>"; };
+		F8345DB324FA931E00677C87 /* STCompiledCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCompiledCode.h; sourceTree = "<group>"; };
+		F8345DB424FA931E00677C87 /* STBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBlock.h; sourceTree = "<group>"; };
+		F8345DB524FA931E00677C87 /* STStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStack.h; sourceTree = "<group>"; };
+		F8345DB624FA931E00677C87 /* STCompiledScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCompiledScript.h; sourceTree = "<group>"; };
+		F8345DB724FA931E00677C87 /* NSArray+additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+additions.m"; sourceTree = "<group>"; };
+		F8345DB824FA931F00677C87 /* STBytecodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBytecodes.m; sourceTree = "<group>"; };
+		F8345DE424FAC74D00677C87 /* STGrammarTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STGrammarTypes.h; sourceTree = "<group>"; };
+		F8345DE924FACF8300677C87 /* steptalk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = steptalk; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8345DEB24FACF8300677C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8345E0124FAD31200677C87 /* STExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STExecutor.h; sourceTree = "<group>"; };
+		F8345E0224FAD31200677C87 /* STExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STExecutor.m; sourceTree = "<group>"; };
+		F8345E0E24FAD95B00677C87 /* Smalltalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Smalltalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8345E1024FAD95B00677C87 /* Smalltalk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smalltalk.h; sourceTree = "<group>"; };
+		F8345E1124FAD95B00677C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8345E1624FAD95B00677C87 /* SmalltalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmalltalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8345E1B24FAD95B00677C87 /* SmalltalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmalltalkTests.m; sourceTree = "<group>"; };
+		F8345E1D24FAD95B00677C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8345E5D24FADB1400677C87 /* STSourceReaderTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSourceReaderTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +320,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8345DE624FACF8300677C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E0424FAD84600677C87 /* StepTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E0B24FAD95B00677C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E2824FAD98200677C87 /* StepTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E1324FAD95B00677C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E1724FAD95B00677C87 /* Smalltalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +352,12 @@
 			children = (
 				F8345CE724FA92CA00677C87 /* StepTalk */,
 				F8345CF224FA92CA00677C87 /* StepTalkTests */,
+				F8345D8024FA92FF00677C87 /* Smalltalk */,
+				F8345DEA24FACF8300677C87 /* steptalk */,
+				F8345E0F24FAD95B00677C87 /* Smalltalk */,
+				F8345E1A24FAD95B00677C87 /* SmalltalkTests */,
 				F8345CE624FA92CA00677C87 /* Products */,
+				F8345DD324FAB1B900677C87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +366,9 @@
 			children = (
 				F8345CE524FA92CA00677C87 /* StepTalk.framework */,
 				F8345CEE24FA92CA00677C87 /* StepTalkTests.xctest */,
+				F8345DE924FACF8300677C87 /* steptalk */,
+				F8345E0E24FAD95B00677C87 /* Smalltalk.framework */,
+				F8345E1624FAD95B00677C87 /* SmalltalkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +376,19 @@
 		F8345CE724FA92CA00677C87 /* StepTalk */ = {
 			isa = PBXGroup;
 			children = (
+				F8345DDE24FAB52700677C87 /* ScriptingInfo */,
+				F8345DDB24FAB4A600677C87 /* Scripting */,
+				F8345DDD24FAB50F00677C87 /* Environment */,
+				F8345DDC24FAB4C400677C87 /* Runtime */,
+				F8345DDA24FAB47200677C87 /* Additions */,
 				F8345CE824FA92CA00677C87 /* StepTalk.h */,
+				F8345D0724FA92F200677C87 /* STActor.h */,
+				F8345D2A24FA92F600677C87 /* STActor.m */,
+				F8345D0F24FA92F300677C87 /* StepTalkLegacy.h */,
+				F8345D3924FA92F900677C87 /* STExterns.h */,
+				F8345D2724FA92F600677C87 /* STExterns.m */,
+				F8345D3724FA92F900677C87 /* STFunctions.h */,
+				F8345D3324FA92F800677C87 /* STFunctions.m */,
 				F8345CE924FA92CA00677C87 /* Info.plist */,
 			);
 			path = StepTalk;
@@ -86,6 +403,206 @@
 			path = StepTalkTests;
 			sourceTree = "<group>";
 		};
+		F8345D8024FA92FF00677C87 /* Smalltalk */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D8124FA92FF00677C87 /* Info.plist */,
+			);
+			path = Smalltalk;
+			sourceTree = "<group>";
+		};
+		F8345DD324FAB1B900677C87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8345DDA24FAB47200677C87 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D0D24FA92F200677C87 /* NSInvocation+additions.h */,
+				F8345D0224FA92F100677C87 /* NSInvocation+additions.m */,
+				F8345D2D24FA92F700677C87 /* NSNumber+additions.h */,
+				F8345D2024FA92F500677C87 /* NSNumber+additions.m */,
+				F8345D2424FA92F500677C87 /* NSObject+additions.h */,
+				F8345D3C24FA92FA00677C87 /* NSObject+additions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		F8345DDB24FAB4A600677C87 /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D0524FA92F200677C87 /* STFileScript.h */,
+				F8345D1C24FA92F400677C87 /* STFileScript.m */,
+				F8345D0024FA92F100677C87 /* STScriptsManager.h */,
+				F8345D2924FA92F600677C87 /* STScriptsManager.m */,
+				F8345D1F24FA92F500677C87 /* STScript.h */,
+				F8345D3424FA92F900677C87 /* STScript.m */,
+				F8345D2C24FA92F700677C87 /* STScripting.h */,
+				F8345D1224FA92F300677C87 /* STScripting.m */,
+				F8345D1D24FA92F400677C87 /* STScriptObject.h */,
+				F8345D3524FA92F900677C87 /* STScriptObject.m */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		F8345DDC24FAB4C400677C87 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				F8345CFF24FA92F100677C87 /* STMethod.h */,
+				F8345D0A24FA92F200677C87 /* STMethod.m */,
+				F8345D3124FA92F700677C87 /* STObjCRuntime.h */,
+				F8345D1024FA92F300677C87 /* STObjCRuntime.m */,
+				F8345D1424FA92F300677C87 /* STObjectReference.h */,
+				F8345D0324FA92F200677C87 /* STObjectReference.m */,
+				F8345D2F24FA92F700677C87 /* STSelector.h */,
+				F8345D0B24FA92F200677C87 /* STSelector.m */,
+				F8345D1924FA92F400677C87 /* STStructure.h */,
+				F8345D1824FA92F400677C87 /* STStructure.m */,
+				F8345D2324FA92F500677C87 /* STUndefinedObject.h */,
+				F8345D2824FA92F600677C87 /* STUndefinedObject.m */,
+			);
+			name = Runtime;
+			sourceTree = "<group>";
+		};
+		F8345DDD24FAB50F00677C87 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D1524FA92F300677C87 /* STLanguageManager.h */,
+				F8345D0824FA92F200677C87 /* STLanguageManager.m */,
+				F8345D3B24FA92FA00677C87 /* STContext.h */,
+				F8345D3624FA92F900677C87 /* STContext.m */,
+				F8345D2224FA92F500677C87 /* STConversation.h */,
+				F8345D1E24FA92F400677C87 /* STConversation.m */,
+				F8345D2E24FA92F700677C87 /* STEngine.h */,
+				F8345D1124FA92F300677C87 /* STEngine.m */,
+				F8345D1624FA92F300677C87 /* STEnvironment.h */,
+				F8345D0124FA92F100677C87 /* STEnvironment.m */,
+				F8345D3224FA92F700677C87 /* STEnvironmentDescription.h */,
+				F8345D2B24FA92F600677C87 /* STEnvironmentDescription.m */,
+			);
+			name = Environment;
+			sourceTree = "<group>";
+		};
+		F8345DDE24FAB52700677C87 /* ScriptingInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D1B24FA92F400677C87 /* STBehaviourInfo.h */,
+				F8345D1A24FA92F400677C87 /* STBehaviourInfo.m */,
+				F8345D0424FA92F200677C87 /* STBundleInfo.h */,
+				F8345D2124FA92F500677C87 /* STBundleInfo.m */,
+				F8345D1724FA92F300677C87 /* STClassInfo.h */,
+				F8345D0E24FA92F300677C87 /* STClassInfo.m */,
+			);
+			name = ScriptingInfo;
+			sourceTree = "<group>";
+		};
+		F8345DE024FAB59500677C87 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F8345DA924FA931C00677C87 /* NSArray+additions.h */,
+				F8345DB724FA931E00677C87 /* NSArray+additions.m */,
+				F8345DB024FA931D00677C87 /* NSNumber+additions.h */,
+				F8345D8F24FA931900677C87 /* NSNumber+additions.m */,
+				F8345D8E24FA931800677C87 /* NSObject+additions.h */,
+				F8345DAB24FA931C00677C87 /* NSObject+additions.m */,
+				F8345D8624FA931800677C87 /* NSString+additions.h */,
+				F8345DA624FA931C00677C87 /* NSString+additions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		F8345DE124FAB5AB00677C87 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				F8345D8524FA931700677C87 /* STTokenTypes.h */,
+				F8345D9024FA931900677C87 /* STSourceReader.h */,
+				F8345DAA24FA931C00677C87 /* STSourceReader.m */,
+				F8345DE424FAC74D00677C87 /* STGrammarTypes.h */,
+				F8345D8A24FA931800677C87 /* STGrammar.ym */,
+				F8345D8724FA931800677C87 /* STLiterals.h */,
+				F8345D9E24FA931B00677C87 /* STLiterals.m */,
+				F8345DB324FA931E00677C87 /* STCompiledCode.h */,
+				F8345DB124FA931E00677C87 /* STCompiledCode.m */,
+				F8345D8B24FA931800677C87 /* STCompiledMethod.h */,
+				F8345DA724FA931C00677C87 /* STCompiledMethod.m */,
+				F8345DB624FA931E00677C87 /* STCompiledScript.h */,
+				F8345D9924FA931A00677C87 /* STCompiledScript.m */,
+				F8345DA024FA931B00677C87 /* STCompiler.h */,
+				F8345D9324FA931900677C87 /* STCompiler.m */,
+				F8345D9C24FA931A00677C87 /* STCompilerUtils.h */,
+				F8345D9524FA931A00677C87 /* STCompilerUtils.m */,
+			);
+			name = Compiler;
+			sourceTree = "<group>";
+		};
+		F8345DE224FAB5B300677C87 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				F8345DB424FA931E00677C87 /* STBlock.h */,
+				F8345D9424FA931900677C87 /* STBlock.m */,
+				F8345DA524FA931C00677C87 /* STBytecodeInterpreter.h */,
+				F8345DB224FA931E00677C87 /* STBytecodeInterpreter.m */,
+				F8345D9F24FA931B00677C87 /* STBytecodes.h */,
+				F8345DB824FA931F00677C87 /* STBytecodes.m */,
+				F8345DA824FA931C00677C87 /* STExecutionContext.h */,
+				F8345DAE24FA931D00677C87 /* STExecutionContext.m */,
+				F8345D8C24FA931800677C87 /* STMessage.h */,
+				F8345D9A24FA931A00677C87 /* STMessage.m */,
+				F8345D8824FA931800677C87 /* STMethodContext.h */,
+				F8345DA224FA931B00677C87 /* STMethodContext.m */,
+				F8345D9D24FA931B00677C87 /* STSelector+additions.h */,
+				F8345DA324FA931B00677C87 /* STSelector+additions.m */,
+				F8345DAD24FA931D00677C87 /* STBlockContext.h */,
+				F8345D8924FA931800677C87 /* STBlockContext.m */,
+				F8345DB524FA931E00677C87 /* STStack.h */,
+				F8345D9224FA931900677C87 /* STStack.m */,
+				F8345D8D24FA931800677C87 /* STUndefinedObject+additions.h */,
+				F8345D9B24FA931A00677C87 /* STUndefinedObject+additions.m */,
+			);
+			name = Interpreter;
+			sourceTree = "<group>";
+		};
+		F8345DEA24FACF8300677C87 /* steptalk */ = {
+			isa = PBXGroup;
+			children = (
+				F8345DEB24FACF8300677C87 /* main.m */,
+				F8345E0124FAD31200677C87 /* STExecutor.h */,
+				F8345E0224FAD31200677C87 /* STExecutor.m */,
+			);
+			path = steptalk;
+			sourceTree = "<group>";
+		};
+		F8345E0F24FAD95B00677C87 /* Smalltalk */ = {
+			isa = PBXGroup;
+			children = (
+				F8345DE224FAB5B300677C87 /* Interpreter */,
+				F8345DE124FAB5AB00677C87 /* Compiler */,
+				F8345DE024FAB59500677C87 /* Additions */,
+				F8345DA124FA931B00677C87 /* Externs.h */,
+				F8345DAF24FA931D00677C87 /* Externs.m */,
+				F8345D9824FA931A00677C87 /* SmalltalkEngine.h */,
+				F8345DAC24FA931D00677C87 /* SmalltalkEngine.m */,
+				F8345DA424FA931B00677C87 /* STSmalltalkScriptObject.h */,
+				F8345D9124FA931900677C87 /* STSmalltalkScriptObject.m */,
+				F8345E1024FAD95B00677C87 /* Smalltalk.h */,
+				F8345E1124FAD95B00677C87 /* Info.plist */,
+			);
+			path = Smalltalk;
+			sourceTree = "<group>";
+		};
+		F8345E1A24FAD95B00677C87 /* SmalltalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8345E1B24FAD95B00677C87 /* SmalltalkTests.m */,
+				F8345E1D24FAD95B00677C87 /* Info.plist */,
+				F8345E5D24FADB1400677C87 /* STSourceReaderTest.m */,
+			);
+			path = SmalltalkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +610,68 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8345D3D24FA92FA00677C87 /* STMethod.h in Headers */,
+				F8345D5924FA92FA00677C87 /* STBehaviourInfo.h in Headers */,
+				F8345D6224FA92FA00677C87 /* NSObject+additions.h in Headers */,
+				F8345D6C24FA92FA00677C87 /* STEngine.h in Headers */,
+				F8345D4324FA92FA00677C87 /* STFileScript.h in Headers */,
+				F8345D5324FA92FA00677C87 /* STLanguageManager.h in Headers */,
+				F8345D4224FA92FA00677C87 /* STBundleInfo.h in Headers */,
+				F8345D5424FA92FA00677C87 /* STEnvironment.h in Headers */,
 				F8345CF624FA92CA00677C87 /* StepTalk.h in Headers */,
+				F8345D5224FA92FA00677C87 /* STObjectReference.h in Headers */,
+				F8345D7724FA92FA00677C87 /* STExterns.h in Headers */,
+				F8345D6024FA92FA00677C87 /* STConversation.h in Headers */,
+				F8345D4B24FA92FA00677C87 /* NSInvocation+additions.h in Headers */,
+				F8345D5D24FA92FA00677C87 /* STScript.h in Headers */,
+				F8345D7924FA92FA00677C87 /* STContext.h in Headers */,
+				F8345D5524FA92FA00677C87 /* STClassInfo.h in Headers */,
+				F8345D5B24FA92FA00677C87 /* STScriptObject.h in Headers */,
+				F8345D6D24FA92FA00677C87 /* STSelector.h in Headers */,
+				F8345D3E24FA92FA00677C87 /* STScriptsManager.h in Headers */,
+				F8345D4524FA92FA00677C87 /* STActor.h in Headers */,
+				F8345D4D24FA92FA00677C87 /* StepTalkLegacy.h in Headers */,
+				F8345D6A24FA92FA00677C87 /* STScripting.h in Headers */,
+				F8345D5724FA92FA00677C87 /* STStructure.h in Headers */,
+				F8345D7524FA92FA00677C87 /* STFunctions.h in Headers */,
+				F8345D6124FA92FA00677C87 /* STUndefinedObject.h in Headers */,
+				F8345D7024FA92FA00677C87 /* STEnvironmentDescription.h in Headers */,
+				F8345D6F24FA92FA00677C87 /* STObjCRuntime.h in Headers */,
+				F8345D6B24FA92FA00677C87 /* NSNumber+additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E0924FAD95B00677C87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E5B24FAD9FE00677C87 /* SmalltalkEngine.h in Headers */,
+				F8345E3124FAD9FE00677C87 /* STBytecodes.h in Headers */,
+				F8345E3724FAD9FE00677C87 /* STMethodContext.h in Headers */,
+				F8345E5624FAD9FE00677C87 /* NSObject+additions.h in Headers */,
+				F8345E5224FAD9FE00677C87 /* NSArray+additions.h in Headers */,
+				F8345E3324FAD9FE00677C87 /* STExecutionContext.h in Headers */,
+				F8345E4E24FAD9FE00677C87 /* STCompiler.h in Headers */,
+				F8345E5C24FAD9FE00677C87 /* STSmalltalkScriptObject.h in Headers */,
+				F8345E4524FAD9FE00677C87 /* STGrammarTypes.h in Headers */,
+				F8345E4324FAD9FE00677C87 /* STTokenTypes.h in Headers */,
+				F8345E4824FAD9FE00677C87 /* STCompiledCode.h in Headers */,
+				F8345E1E24FAD95B00677C87 /* Smalltalk.h in Headers */,
+				F8345E4C24FAD9FE00677C87 /* STCompiledScript.h in Headers */,
+				F8345E3F24FAD9FE00677C87 /* STUndefinedObject+additions.h in Headers */,
+				F8345E3D24FAD9FE00677C87 /* STStack.h in Headers */,
+				F8345E5424FAD9FE00677C87 /* NSNumber+additions.h in Headers */,
+				F8345E2D24FAD9FE00677C87 /* STBlock.h in Headers */,
+				F8345E2F24FAD9FE00677C87 /* STBytecodeInterpreter.h in Headers */,
+				F8345E3924FAD9FE00677C87 /* STSelector+additions.h in Headers */,
+				F8345E4124FAD9FE00677C87 /* STLiterals.h in Headers */,
+				F8345E3524FAD9FE00677C87 /* STMessage.h in Headers */,
+				F8345E3B24FAD9FE00677C87 /* STBlockContext.h in Headers */,
+				F8345E5824FAD9FE00677C87 /* NSString+additions.h in Headers */,
+				F8345E4A24FAD9FE00677C87 /* STCompiledMethod.h in Headers */,
+				F8345E5024FAD9FE00677C87 /* STCompilerUtils.h in Headers */,
+				F8345E5A24FAD9FE00677C87 /* Externs.h in Headers */,
+				F8345E4424FAD9FE00677C87 /* STSourceReader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +714,62 @@
 			productReference = F8345CEE24FA92CA00677C87 /* StepTalkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F8345DE824FACF8300677C87 /* steptalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8345DEF24FACF8300677C87 /* Build configuration list for PBXNativeTarget "steptalk" */;
+			buildPhases = (
+				F8345DE524FACF8300677C87 /* Sources */,
+				F8345DE624FACF8300677C87 /* Frameworks */,
+				F8345DE724FACF8300677C87 /* CopyFiles */,
+				F8345E0824FAD84600677C87 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8345E0724FAD84600677C87 /* PBXTargetDependency */,
+			);
+			name = steptalk;
+			productName = steptalk;
+			productReference = F8345DE924FACF8300677C87 /* steptalk */;
+			productType = "com.apple.product-type.tool";
+		};
+		F8345E0D24FAD95B00677C87 /* Smalltalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8345E1F24FAD95B00677C87 /* Build configuration list for PBXNativeTarget "Smalltalk" */;
+			buildPhases = (
+				F8345E0924FAD95B00677C87 /* Headers */,
+				F8345E0A24FAD95B00677C87 /* Sources */,
+				F8345E0B24FAD95B00677C87 /* Frameworks */,
+				F8345E0C24FAD95B00677C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8345E2B24FAD98200677C87 /* PBXTargetDependency */,
+			);
+			name = Smalltalk;
+			productName = Smalltalk;
+			productReference = F8345E0E24FAD95B00677C87 /* Smalltalk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8345E1524FAD95B00677C87 /* SmalltalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8345E2224FAD95B00677C87 /* Build configuration list for PBXNativeTarget "SmalltalkTests" */;
+			buildPhases = (
+				F8345E1224FAD95B00677C87 /* Sources */,
+				F8345E1324FAD95B00677C87 /* Frameworks */,
+				F8345E1424FAD95B00677C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8345E1924FAD95B00677C87 /* PBXTargetDependency */,
+			);
+			name = SmalltalkTests;
+			productName = SmalltalkTests;
+			productReference = F8345E1624FAD95B00677C87 /* SmalltalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +783,15 @@
 						CreatedOnToolsVersion = 11.6;
 					};
 					F8345CED24FA92CA00677C87 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F8345DE824FACF8300677C87 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F8345E0D24FAD95B00677C87 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F8345E1524FAD95B00677C87 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -168,6 +811,9 @@
 			targets = (
 				F8345CE424FA92CA00677C87 /* StepTalk */,
 				F8345CED24FA92CA00677C87 /* StepTalkTests */,
+				F8345DE824FACF8300677C87 /* steptalk */,
+				F8345E0D24FAD95B00677C87 /* Smalltalk */,
+				F8345E1524FAD95B00677C87 /* SmalltalkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +833,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8345E0C24FAD95B00677C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E1424FAD95B00677C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +854,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8345D4624FA92FA00677C87 /* STLanguageManager.m in Sources */,
+				F8345D5A24FA92FA00677C87 /* STFileScript.m in Sources */,
+				F8345D4F24FA92FA00677C87 /* STEngine.m in Sources */,
+				F8345D5024FA92FA00677C87 /* STScripting.m in Sources */,
+				F8345D7324FA92FA00677C87 /* STScriptObject.m in Sources */,
+				F8345D4024FA92FA00677C87 /* NSInvocation+additions.m in Sources */,
+				F8345D5824FA92FA00677C87 /* STBehaviourInfo.m in Sources */,
+				F8345D5F24FA92FA00677C87 /* STBundleInfo.m in Sources */,
+				F8345D6824FA92FA00677C87 /* STActor.m in Sources */,
+				F8345D7224FA92FA00677C87 /* STScript.m in Sources */,
+				F8345D6524FA92FA00677C87 /* STExterns.m in Sources */,
+				F8345D7124FA92FA00677C87 /* STFunctions.m in Sources */,
+				F8345D3F24FA92FA00677C87 /* STEnvironment.m in Sources */,
+				F8345D4E24FA92FA00677C87 /* STObjCRuntime.m in Sources */,
+				F8345D4824FA92FA00677C87 /* STMethod.m in Sources */,
+				F8345D5E24FA92FA00677C87 /* NSNumber+additions.m in Sources */,
+				F8345D7A24FA92FA00677C87 /* NSObject+additions.m in Sources */,
+				F8345D6624FA92FA00677C87 /* STUndefinedObject.m in Sources */,
+				F8345D6724FA92FA00677C87 /* STScriptsManager.m in Sources */,
+				F8345D4C24FA92FA00677C87 /* STClassInfo.m in Sources */,
+				F8345D4124FA92FA00677C87 /* STObjectReference.m in Sources */,
+				F8345D5C24FA92FA00677C87 /* STConversation.m in Sources */,
+				F8345D4924FA92FA00677C87 /* STSelector.m in Sources */,
+				F8345D6924FA92FA00677C87 /* STEnvironmentDescription.m in Sources */,
+				F8345D7424FA92FA00677C87 /* STContext.m in Sources */,
+				F8345D5624FA92FA00677C87 /* STStructure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +891,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8345DE524FACF8300677C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345DEC24FACF8300677C87 /* main.m in Sources */,
+				F8345E0324FAD31200677C87 /* STExecutor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E0A24FAD95B00677C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E5124FAD9FE00677C87 /* STCompilerUtils.m in Sources */,
+				F8345E5724FAD9FE00677C87 /* NSObject+additions.m in Sources */,
+				F8345E5924FAD9FE00677C87 /* NSString+additions.m in Sources */,
+				F8345E2624FAD96E00677C87 /* STSmalltalkScriptObject.m in Sources */,
+				F8345E3024FAD9FE00677C87 /* STBytecodeInterpreter.m in Sources */,
+				F8345E3624FAD9FE00677C87 /* STMessage.m in Sources */,
+				F8345E2524FAD96E00677C87 /* SmalltalkEngine.m in Sources */,
+				F8345E4B24FAD9FE00677C87 /* STCompiledMethod.m in Sources */,
+				F8345E3C24FAD9FE00677C87 /* STBlockContext.m in Sources */,
+				F8345E4624FAD9FE00677C87 /* STSourceReader.m in Sources */,
+				F8345E5524FAD9FE00677C87 /* NSNumber+additions.m in Sources */,
+				F8345E2E24FAD9FE00677C87 /* STBlock.m in Sources */,
+				F8345E4224FAD9FE00677C87 /* STLiterals.m in Sources */,
+				F8345E3A24FAD9FE00677C87 /* STSelector+additions.m in Sources */,
+				F8345E3824FAD9FE00677C87 /* STMethodContext.m in Sources */,
+				F8345E5324FAD9FE00677C87 /* NSArray+additions.m in Sources */,
+				F8345E2724FAD96E00677C87 /* Externs.m in Sources */,
+				F8345E4D24FAD9FE00677C87 /* STCompiledScript.m in Sources */,
+				F8345E3E24FAD9FE00677C87 /* STStack.m in Sources */,
+				F8345E3424FAD9FE00677C87 /* STExecutionContext.m in Sources */,
+				F8345E4024FAD9FE00677C87 /* STUndefinedObject+additions.m in Sources */,
+				F8345E4724FAD9FE00677C87 /* STGrammar.ym in Sources */,
+				F8345E4F24FAD9FE00677C87 /* STCompiler.m in Sources */,
+				F8345E3224FAD9FE00677C87 /* STBytecodes.m in Sources */,
+				F8345E4924FAD9FE00677C87 /* STCompiledCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8345E1224FAD95B00677C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8345E5E24FADB1400677C87 /* STSourceReaderTest.m in Sources */,
+				F8345E1C24FAD95B00677C87 /* SmalltalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,6 +948,21 @@
 			isa = PBXTargetDependency;
 			target = F8345CE424FA92CA00677C87 /* StepTalk */;
 			targetProxy = F8345CF024FA92CA00677C87 /* PBXContainerItemProxy */;
+		};
+		F8345E0724FAD84600677C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8345CE424FA92CA00677C87 /* StepTalk */;
+			targetProxy = F8345E0624FAD84600677C87 /* PBXContainerItemProxy */;
+		};
+		F8345E1924FAD95B00677C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8345E0D24FAD95B00677C87 /* Smalltalk */;
+			targetProxy = F8345E1824FAD95B00677C87 /* PBXContainerItemProxy */;
+		};
+		F8345E2B24FAD98200677C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8345CE424FA92CA00677C87 /* StepTalk */;
+			targetProxy = F8345E2A24FAD98200677C87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -274,6 +1025,7 @@
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				YACCFLAGS = "-p STC";
 			};
 			name = Debug;
 		};
@@ -328,6 +1080,7 @@
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				YACCFLAGS = "-p STC";
 			};
 			name = Release;
 		};
@@ -411,6 +1164,106 @@
 			};
 			name = Release;
 		};
+		F8345DED24FACF8300677C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8345DEE24FACF8300677C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8345E2024FAD95B00677C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Smalltalk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Agentfarms.Smalltalk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8345E2124FAD95B00677C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Smalltalk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Agentfarms.Smalltalk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8345E2324FAD95B00677C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				INFOPLIST_FILE = SmalltalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Agentfarms.SmalltalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8345E2424FAD95B00677C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CQUL49KZB8;
+				INFOPLIST_FILE = SmalltalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Agentfarms.SmalltalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,6 +1290,33 @@
 			buildConfigurations = (
 				F8345CFD24FA92CA00677C87 /* Debug */,
 				F8345CFE24FA92CA00677C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8345DEF24FACF8300677C87 /* Build configuration list for PBXNativeTarget "steptalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8345DED24FACF8300677C87 /* Debug */,
+				F8345DEE24FACF8300677C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8345E1F24FAD95B00677C87 /* Build configuration list for PBXNativeTarget "Smalltalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8345E2024FAD95B00677C87 /* Debug */,
+				F8345E2124FAD95B00677C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8345E2224FAD95B00677C87 /* Build configuration list for PBXNativeTarget "SmalltalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8345E2324FAD95B00677C87 /* Debug */,
+				F8345E2424FAD95B00677C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
